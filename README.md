@@ -1,6 +1,6 @@
 # Spring Boot DevSuperior
 
-Este é um projeto desenvolvido no curso **DevSuperior** com Spring Boot, parte do conteúdo oferecido pela [DevSuperior](https://devsuperior.com.br/). O objetivo do curso é criar uma aplicação web moderna utilizando Spring Boot, JPA, Thymeleaf e outras tecnologias.
+Este é um projeto desenvolvido no curso **DevSuperior** com Spring Boot, parte do conteúdo oferecido pela [DevSuperior](https://devsuperior.com.br/). O objetivo do curso é criar uma aplicação web moderna utilizando Spring Boot, JPA, Thymeleaf e outras tecnologias. O projeto consiste e um sistema de coleções de jogos onde as pessoas podem organizar suas coleções de jogos.
 
 ## Tecnologias utilizadas
 
@@ -21,4 +21,4 @@ Este é um projeto desenvolvido no curso **DevSuperior** com Spring Boot, parte 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone (https://github.com/hstcris/Dlist.git)

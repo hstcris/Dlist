@@ -1,6 +1,6 @@
 package com.devsuperior.dlist.controllers;
 
-import com.devsuperior.dlist.entities.Game;
+import com.devsuperior.dlist.dto.GameMinDto;
 import com.devsuperior.dlist.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,8 +17,8 @@ public class GameController {
     private GameService gameService;
 
     @GetMapping
-    public List<Game> findAll(){
-        List<Game> result = gameService.findAll();
+    public List<GameMinDto> findAll(){
+        List<GameMinDto> result = gameService.findAll();
         return result;
     }
 }

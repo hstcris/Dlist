@@ -14,8 +14,8 @@ public class GameService {
     @Autowired
     private GameRepository gameRepository;
 
-    public List<Game> findAll(){
+    public List<GameMinDto> findAll(){
         List<Game> result = gameRepository.findAll();
-            return result;
+        return result.stream().map(x -> new GameMinDto(x)).toList();
     }
 }
